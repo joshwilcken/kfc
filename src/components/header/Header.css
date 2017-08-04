@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran');
+
+.navbar {
+    width: 100vw;
+    background-color: #E4002B;
+    height: 60px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar h1 {
+    font-size: 25px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.navbar {
+    color: white;
+}
+.icons {
+    margin-right: 15px;
+    width: 128px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bm-burger-button {
+    height: 40px;
+    width: 40px;
+}
+.bm-burger-button:hover {
+    cursor: pointer;
+}
+.bm-burger-bars {
+    background: #373a47;
+    height: 2px;
+    width: 2px;
+}
