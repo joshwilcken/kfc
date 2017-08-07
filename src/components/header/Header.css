@@ -11,7 +11,8 @@
 
 }
 .navbar h1 {
-    font-size: 25px;
+    margin-left: 20px;
+    font-size: 22px;
     font-family: 'Catamaran', sans-serif;
     font-weight: bold;
     color: white;
@@ -27,15 +28,27 @@
     justify-content: space-around;
     align-items: center;
 }
-.bm-burger-button {
-    height: 40px;
-    width: 40px;
-}
-.bm-burger-button:hover {
+.hamburger {
     cursor: pointer;
+    height: 16px;
+    width: 24px;
+    margin-left: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.bm-burger-bars {
-    background: #373a47;
+.hamburger div {
+    background: white;
     height: 2px;
-    width: 2px;
+    width: 100%;
 }
+.hamburger div:nth-child(1) {
+    width: 100%;
+}
+.hamburger div:nth-child(2) {
+    width: 50%;
+}
+.hamburger div:nth-child(3) {
+    width: 75%;
+}
+

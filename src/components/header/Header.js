@@ -10,8 +10,11 @@ class Header extends Component {
         
         return (
             <div className='navbar'>
-                <Menu>
-                </Menu>
+                <div className='hamburger'>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
                 <h1>Kentucky Fried Chicken</h1>
                 <div className='icons'>
                     <i className="fa fa-facebook fa-lg" aria-hidden="true"></i>
