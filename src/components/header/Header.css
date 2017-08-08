@@ -28,6 +28,11 @@
     justify-content: space-around;
     align-items: center;
 }
+.navbar img {
+    width: 182px;
+    height: auto;
+    margin-left: 100px;
+}
 .hamburger {
     cursor: pointer;
     height: 16px;
@@ -51,4 +56,5 @@
 .hamburger div:nth-child(3) {
     width: 75%;
 }
+
 

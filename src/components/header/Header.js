@@ -15,7 +15,7 @@ class Header extends Component {
                     <div></div>
                     <div></div>
                 </div>
-                <h1>Kentucky Fried Chicken</h1>
+                <img src={require('../../images/kfc-logo.png')} />
                 <div className='icons'>
                     <i className="fa fa-facebook fa-lg" aria-hidden="true"></i>
                     <i className="fa fa-twitter fa-lg" aria-hidden="true"></i>

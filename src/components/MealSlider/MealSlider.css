@@ -1,0 +1,14 @@
+.foodCarouselContainer {
+    margin-top: 100px;
+    width: 100vw;
+    height: auto;
+}
+.foodCarousel {
+    width: 6000px;
+    height: 30vh;
+    overflow-x: scroll;
+}
+.foodCarousel img {
+    width: 140px;
+    height: 172.5px;
+}
