@@ -1,13 +1,27 @@
 import React, { Component } from 'react';
 import './MealSlider.css'
-const path = '../../images/'
+
+document.querySelector('mouseenter')
+
 
 class componentName extends Component {
     render() {
         return (
-            <div>
+            <div className='jumbotron'>
+                <div className='titleContainer'>
+                    <h5>PROMOTIONS</h5>
+                    <h5>CHICKEN</h5>
+                    <h5>SANDWICHES</h5>
+                    <h5>MEALS</h5>
+                    <h5>$5 FILL UPS</h5>
+                    <h5>SIDES</h5>
+                    <h5>CLASSICS</h5>
+                    <h5>DESSERTS</h5>
+                    <h5>DRINKS</h5>
+                    <h5>SAUCES</h5>
+                </div>
                 <div className='foodCarouselContainer'>
-                    <div className='foodCarousel' type='scroll'>
+                    <div className='foodCarousel'>
                         <img src={require('../../images/FoodCarouselImages/DrumstickandThighMeal.jpg')} alt=""/>
                         <img src={require('../../images/FoodCarouselImages/KFC-$10-Chicken-Share-ea64b10d38e49e377b824ec9504f22daf3b9a19e630491e75ae3b3d157abfc26.jpg')} alt=""/>
                         <img src={require('../../images/FoodCarouselImages/BucketOriginalRecipe.jpg')} alt=""/>

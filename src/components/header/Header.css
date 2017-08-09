@@ -45,7 +45,6 @@
 .hamburger div {
     background: white;
     height: 2px;
-    width: 100%;
 }
 .hamburger div:nth-child(1) {
     width: 100%;
@@ -55,6 +54,24 @@
 }
 .hamburger div:nth-child(3) {
     width: 75%;
+}
+.burger {
+    cursor: pointer;
+    height: 16px;
+    width: 24px;
+    margin-left: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.burger div {
+    background: white;
+    height: 2px;
+}
+
+@keyframes burgerchange {
+    from {width: 50%;}
+    to {width: 100%}
 }
 
 
