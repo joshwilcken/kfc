@@ -1,0 +1,19 @@
+.bottomContainer {
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 40vh;
+    padding-top: 10px;
+}
+ .search {
+    width: 50%;
+    height: 100%;
+}
+.landing {
+    width: 50%;
+    height: 100%;
+} 
+
+

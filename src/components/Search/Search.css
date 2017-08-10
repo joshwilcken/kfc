@@ -1,0 +1,44 @@
+.searchContainer {
+    background: url('../../images/weather-vane.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 100%;
+    width: 100%;
+    zoom: 65%;
+    display: flex;
+    align-items: flex-end;
+}
+.searchContainer input {
+    background-color: #e4002b;
+    opacity: .95;
+    line-height: 80px;
+    width: 90%;
+    border-width: 0px;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 20px;
+    text-indent: 40px;
+    caret-color: white;
+    color: white;
+    text-transform: uppercase;
+}
+.searchContainer input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+
+.searchContainer input:focus:-moz-placeholder {
+    color: red;
+}
+.locationIconContainer {
+    height: 80px;
+    width: 10%;
+    background-color: #e4002b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.locationIconContainer img {
+    height: 40px;
+    width: 40px;
+}

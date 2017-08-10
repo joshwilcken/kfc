@@ -32,9 +32,37 @@
 .foodCarousel::-webkit-scrollbar {
     display: none;
 }
-.foodCarousel img {
+.foodCarousel div {
     width: 140px;
-    height: 145px;
+    height: 160px;
     display: inline-block;
     margin-right: 18px;
+    cursor: pointer;
 }
+.foodCarousel img {
+    height: 140px;
+    width: 100%;
+    opacity: .5;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+}
+.foodCarousel p {
+    height: 20px;
+    width: 100%;
+    font-size: 10px;
+    color: #a4a4a4;
+    text-align: center;
+    margin-top: -5px;
+    display: none;
+}
+.foodCarousel div:hover p {
+    display: block;
+}
+.foodCarousel img:hover {
+    opacity: 1;
+}
+
+
+
