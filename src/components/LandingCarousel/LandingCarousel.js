@@ -14,6 +14,7 @@ class LandingCarousel extends Component {
             slidesToShow: 1,
             slidesToScroll: 1,
             autoplay: true,
+            adaptiveHeight: true
         }
         return (
                 <div className='carouselContainer'>
