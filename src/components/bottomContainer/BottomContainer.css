@@ -1,35 +1,14 @@
-
 .bottomContainer {
     width: 100vw;
-    /* position: absolute; */
+    position: absolute;
     bottom: 0;
-    top: 340px;
-    border: 3px solid yellow;
-    display: inline-block;
+    top: 50%;
 }
-.searchContainer {
-    z-index: 1000;
+.search-container {
     width: 50%;
-    height: inherit;
-    background: url('../../images/colonelsclub.jpg');
-    background: cover;
-    background-position-x: right;
-    background-position-y: top;
-    zoom: 75%;
     height: 100%;
-    background-repeat: no-repeat;
-    /* position: relative; */
-    border: 3px solid purple;
+    zoom: 50%;
 }
-.carouselContainer {
-    width: 50% ;
-    height: inherit;
-    /* position: relative; */
-    left: 50%;
-    top: 0px;
-    z-index: 1;
-    border: 3px solid green;
-} 
 .findStore {
     background: #e4002b;
     position: absolute;
@@ -42,7 +21,7 @@
     cursor: pointer;
 }
 .findStore p {
-    font-size: 12px;
+    font-size: 20px;
     font-weight: 500;
     letter-spacing: 1.5px;
     text-align: center;
